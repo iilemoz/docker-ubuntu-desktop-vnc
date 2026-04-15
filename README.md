@@ -6,4 +6,4 @@ Ubuntu Desktop Web Browser Accessible Docker Image
 
 
 ## License
-MIT License (c) 2023 [Takahashi Akari](https://github.com/iilemoz)
+MIT License (c) 2026 [Lemo](https://github.com/iilemoz)
