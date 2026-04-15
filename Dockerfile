@@ -2,7 +2,6 @@ FROM ubuntu:22.04
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# تثبيت الأدوات الأساسية والـ Desktop
 RUN apt update && apt install -y \
     xfce4 \
     xfce4-goodies \
