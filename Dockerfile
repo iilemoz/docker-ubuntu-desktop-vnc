@@ -27,5 +27,4 @@ RUN mkdir -p /root/.vnc && \
 EXPOSE 7860
 
 CMD bash -c "vncserver -localhost no -SecurityTypes None -geometry 1280x720 --I-KNOW-THIS-IS-INSECURE :1 && \
-    openssl req -new -subj '/C=US' -x509 -days 365 -nodes -out self.pem -keyout self.pem && \
-    websockify --web=/usr/share/novnc/ --cert=self.pem 7860 localhost:5901"
+    websockify --web=/usr/share/novnc/ 7860 localhost:5901"
